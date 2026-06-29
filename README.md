@@ -188,8 +188,10 @@ The five phases and their outputs:
 
 Run phases individually with e.g. `--phase train evaluate --dataset voc`, restrict
 to specific approaches with `--approaches '<name>' …`, and force retraining with
-`--force`. If you attach the released `checkpoints/`, skip `train` and run
-`--phase evaluate analyse`.
+`--force`. The released `checkpoints/` let you skip `train` and run
+`--phase evaluate analyse` — point the pipeline's working dir at them first
+(`ln -s ../../../checkpoints results/full_eval/voc/checkpoints`); see
+`checkpoints/README.md`.
 
 ### 3. Regenerate the figures
 

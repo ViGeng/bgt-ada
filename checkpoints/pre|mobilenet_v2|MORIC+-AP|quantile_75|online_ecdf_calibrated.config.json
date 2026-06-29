@@ -1,0 +1,1 @@
+{"signature": "fa36dd51ade66cd0055e2e72b7b73655e4d2bbb669a059ff8bbaeab46ee561af", "approach": "pre|mobilenet_v2|MORIC+-AP|quantile_75|online_ecdf_calibrated"}
