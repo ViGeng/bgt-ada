@@ -1,0 +1,8 @@
+estimator,base_model,stage,offloader_id,policy_id,seed,scenario,scenario_type,spearman_rho,precision_at_31,precision_at_155,precision_at_310,precision_at_621,ndcg
+weak_model,weak_model,pre,default,native_threshold,42,,,0.0,0.03225806451612903,0.0967741935483871,0.11290322580645161,0.19162640901771336,0.9634166733943093
+strong_model,strong_model,pre,default,native_threshold,42,,,0.0,0.03225806451612903,0.0967741935483871,0.11290322580645161,0.19162640901771336,0.9634166733943093
+pre|mobilenet_v2|MORIC+-AP|online_ecdf_calibrated,mobilenet_v2,pre,online_ecdf_calibrated,online_ecdf_calibrated,42,,,0.3501647257190216,0.03225806451612903,0.12903225806451613,0.19032258064516128,0.29790660225442833,0.950242845884231
+pre|mobilenet_v2|OffloadBin|focal|online_ecdf_calibrated,mobilenet_v2,pre,online_ecdf_calibrated,online_ecdf_calibrated,42,,,0.5565119000409919,0.0,0.08387096774193549,0.16451612903225807,0.3462157809983897,0.9745760061004537
+post|dcsb|CountGain-05|fixed_classifier,dcsb,post,fixed_classifier,fixed_classifier,42,,,0.35897619249400303,0.3225806451612903,0.34838709677419355,0.432258064516129,0.5120772946859904,0.9625635852584191
+post|edgeml|MORIC-AP|wmse|native_threshold,edgeml,post,native_threshold,native_threshold,42,,,0.1384787443181505,0.06451612903225806,0.14193548387096774,0.2161290322580645,0.3607085346215781,0.9310900743047584
+post|xgboost|MORIC-AP|online_ecdf_calibrated,xgboost,post,online_ecdf_calibrated,online_ecdf_calibrated,42,,,0.47211843195471515,0.06451612903225806,0.1935483870967742,0.2967741935483871,0.44605475040257647,0.9624252018567767

@@ -1,0 +1,12 @@
+# Offload benefit broken down by weak-detector stratum (VOC test, seed 42, N=3105).
+# Source of truth: tab:slice in appendix.tex. benefit+harm+neutral = 1 per row.
+# map_w / map_s = mean per-frame mAP of the weak / strong detector in the stratum.
+stratum,quartile,benefit,harm,neutral,map_w,map_s
+conf,Q1,0.389,0.169,0.443,0.750,0.821
+conf,Q2,0.312,0.173,0.515,0.847,0.884
+conf,Q3,0.246,0.121,0.633,0.895,0.920
+conf,Q4,0.061,0.030,0.911,0.961,0.973
+count,Q1,0.092,0.037,0.872,0.928,0.955
+count,Q2,0.217,0.093,0.690,0.864,0.905
+count,Q3,0.343,0.151,0.507,0.831,0.877
+count,Q4,0.469,0.269,0.262,0.784,0.824

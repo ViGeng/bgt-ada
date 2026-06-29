@@ -1,0 +1,16 @@
+# Core dependencies
+torch>=2.0.0
+torchvision>=0.15.0
+pillow>=10.0.0
+datasets>=2.14.0          # PASCAL VOC is pulled from the Hugging Face hub
+
+# Estimators
+xgboost>=1.7.0            # conditioned (post-stage) XGBoost-on-MORIC estimator
+scikit-learn>=1.3.0      # EdgeML MLP / scalers, classical baselines
+
+# Analysis dependencies
+numpy>=1.24.0
+pandas>=2.0.0
+scipy>=1.10.0
+matplotlib>=3.7.0        # pipeline charts and paper figure scripts
+tqdm>=4.65.0

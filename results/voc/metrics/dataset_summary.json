@@ -1,0 +1,12 @@
+{
+  "edge_model": "fasterrcnn_mobilenet_v3_large_fpn",
+  "cloud_model": "fasterrcnn_resnet50_fpn_v2",
+  "num_videos": 32,
+  "num_gt": 35171,
+  "num_edge_dets": 302778,
+  "num_cloud_dets": 324954,
+  "edge_ap50": 0.7472922362781012,
+  "cloud_ap50": 0.7850683962009599,
+  "edge_ap_coco": 0.5256181209030726,
+  "cloud_ap_coco": 0.6008353769187081
+}
